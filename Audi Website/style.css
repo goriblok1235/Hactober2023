@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.audi{
+    font-family: 'Source Code Pro', monospace;
+}
+
+::selection {
+    background-color: rgb(203, 24, 24);
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(244, 240, 240);
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+
+}
+
+.menu1 a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100px;
+    height: 80px;
+    transform: translateX(600px);
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(./Images/bg.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(208, 206, 206);
+    padding: 30px 420px 0px 40px;
+    /* font-family: 'Dancing Script', cursive;
+font-family: 'Gruppo', sans-serif;
+font-family: 'Mitr', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+    /* background-size: cover ; */
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.modeltitles {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.btn1 {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding: 16px 34px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.btn1:hover {
+    background-color: grey;
+}
+
+.btn2 {
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid rgb(247, 243, 243);
+    padding: 16px 34px;
+    color: rgb(247, 243, 243);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: rgb(163, 159, 159);
+    border-color: lightgray;
+    color: rgb(163, 159, 159);
+    border: 1px solid rgb(163, 159, 159);
+}
+
+.allmodels {
+    display: flex;
+    transform: translateY(27px);
+}
+
+.allmodels img {
+    height: 136px;
+    width: 307px;
+}
+
+.allmodels p {
+    text-align: cente;
+}
+
+.model {
+    transition: 0.8s;
+    text-align: center;
+}
+
+.model:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.virtualShowroom {
+    transform: translateY(104px);
+    margin-left: 137px;
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 484px;
+    height: 584px;
+    margin: 10px 0px;
+    font-size: 17px;
+}
+
+.info {
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.info button {
+    width: 228px;
+    height: 53px;
+    background-color: transparent;
+    border: 0.5px solid rgb(18, 17, 17);
+    font-size: 15px;
+}
+
+.info button:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.electric {
+    background-image: url(./Images/E-tronHUB.jpg);
+    background-position: center;
+    /* background-size:cover; */
+    transform: translateY(150px);
+    height: 200vh;
+    /* width: 100%; */
+
+}
+
+.content {
+    width: 517px;
+    height: 275px;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+    top: 400px;
+    left: 90px;
+    color: rgb(61, 59, 59);
+}
+
+.content h1 {
+    margin-bottom: 30px;
+}
+
+.buttons {
+    margin-top: 65px;
+}
+
+.bs {
+    width: 200px;
+    height: 47px;
+    color: rgb(104, 98, 98);
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bf {
+    background-color: black;
+    color: white;
+    width: 129px;
+    height: 47px;
+    font-size: 17px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.bf:hover {
+    background-color: rgb(72, 71, 71);
+}
+
+.bs:hover {
+    border: 1px solid grey;
+    background-color: rgb(206, 200, 200);
+}
